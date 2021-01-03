@@ -1,0 +1,5 @@
+{"total":3,"rows":[
+  {"in_type":"工资","in_time":"2020-12-01 16:12:45.0","f_id":"6","in_note":"12月的工资","in_id":"1","in_amount":"8000"},
+  {"in_type":"奖金","in_time":"2020-12-11 16:12:45.0","f_id":"6","in_note":"","in_id":"2","in_amount":"2000"},
+  {"in_type":"兼职","in_time":"2020-11-01 16:12:45.0","f_id":"6","in_note":"","in_id":"3","in_amount":"300"}
+]}

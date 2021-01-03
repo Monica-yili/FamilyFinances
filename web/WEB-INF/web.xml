@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>Login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.Servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.Servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IncomeServlet</servlet-name>
+        <servlet-class>com.Servlet.IncomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncomeServlet</servlet-name>
+        <url-pattern>/IncomeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExpendServlet</servlet-name>
+        <servlet-class>com.Servlet.ExpendServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExpendServlet</servlet-name>
+        <url-pattern>/ExpendServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FinanceServlet</servlet-name>
+        <servlet-class>com.Servlet.FinanceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FinanceServlet</servlet-name>
+        <url-pattern>/FinanceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccountServlet</servlet-name>
+        <servlet-class>com.Servlet.AccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountServlet</servlet-name>
+        <url-pattern>/AccountServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BillServlet</servlet-name>
+        <servlet-class>com.Servlet.BillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BillServlet</servlet-name>
+        <url-pattern>/BillServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
